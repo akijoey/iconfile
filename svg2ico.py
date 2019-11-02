@@ -9,7 +9,6 @@ def EnumPathFiles(path, callback):
 		print('Error: "', path, '" is not a directory or does not exist.')
 		return
 	list_dirs = os.walk(path)
-
 	for root, dirs, files in list_dirs:
 		for d in dirs:
 			EnumPathFiles(os.path.join(root, d), callback)
