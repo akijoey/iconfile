@@ -1,12 +1,12 @@
-# FileIcon
+# Iconfile
 
-修改 Windows 文件的默认图标.
+Change default file icon on Windows.
 
-## 效果图
+## Screenshot
 
-![effect](./img/effect.png)
+![screenshot](./assets/screenshot.png)
 
-## 如何使用
+## Usage
 
 参考这篇文章:
 
